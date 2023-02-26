@@ -1,5 +1,5 @@
 {
-    "cSpell.words": ["routingjs"],
+    "cSpell.words": ["mapbox", "mapboxgl", "routingjs"],
     "editor.formatOnSave": true,
     "eslint.alwaysShowStatus": true,
     "editor.codeActionsOnSave": {
