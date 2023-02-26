@@ -5,7 +5,7 @@ import { Valhalla } from '@routingjs/valhalla'
 dotenv.config()
 
 const app: Express = express()
-const port = process.env.PORT ?? 3000
+const port = process.env.PORT ?? 3001
 
 const routingServiceBaseUrl = 'http://localhost:8002'
 
