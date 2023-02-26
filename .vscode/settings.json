@@ -1,5 +1,5 @@
 {
-    "cSpell.words": ["mapbox", "mapboxgl", "routingjs"],
+    "cSpell.words": ["geolocate", "mapbox", "mapboxgl", "routingjs"],
     "editor.formatOnSave": true,
     "eslint.alwaysShowStatus": true,
     "editor.codeActionsOnSave": {
