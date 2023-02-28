@@ -2,9 +2,7 @@ import { useRef, useEffect } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
-mapboxgl.accessToken =
-    // cspell: disable-next-line
-    'pk.eyJ1IjoiY29saW5wZXJlcGVsa2VuIiwiYSI6ImNsZWxyYXFkeDA2NzAzb21sNDJmbml2anQifQ.TB8dgYq0cKrpSMCbzpjfzQ'
+mapboxgl.accessToken = process.env.MAPBOX_API_KEY ?? ''
 
 export const Map = () => {
     const mapContainer = useRef<HTMLDivElement>(null)
